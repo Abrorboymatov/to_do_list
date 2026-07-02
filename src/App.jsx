@@ -110,7 +110,7 @@ function App() {
 
           {/* Form (Input va tugmalar) */}
           
-          <form onSubmit={handleSubmit} className='flex gap-2 mb-6'>
+          <form onSubmit={handleSubmit} className='grid grid-cols-1 gap-2 mb-6 md:grid-cols-2'>
             <input type="text" 
                    placeholder={isEditing ? "Vazifani tahrirlang..." : "Yangi vazifa kiriting"}
                    value={inputValue}
